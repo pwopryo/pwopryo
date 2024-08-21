@@ -1,0 +1,6 @@
+[submodule "api"]
+	path = api
+	url = https://github.com/pwopryo/pwopryo-api.git
+[submodule "front"]
+	path = front
+	url = https://github.com/pwopryo/pwopryo-front
