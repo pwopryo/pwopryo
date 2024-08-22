@@ -1,0 +1,40 @@
+# API and dashboard configuration
+api:
+  dashboard: true
+  insecure: false
+
+# Enable Healthcheck
+ping: {}
+
+# Docker configuration backend
+providers:
+  docker:
+    endpoint: "unix:///var/run/docker.sock"
+    exposedByDefault: false
+    swarmMode: true
+  
+  file:
+    filename: /etc/traefik/dynamic.yml
+    watch: true
+
+# Traefik Logging
+log:
+  level: debug
+
+# Entrypoint
+entryPoints:
+  web:
+    address: ":80"
+  websecure:
+    address: ":443"
+
+# Challenge DNS
+# certificatesResolvers:
+#   myresolver:
+#     acme:
+#       email: platform.kolonn@gmail.com
+#       storage: /letsencrypt/acme.json
+#       dnsChallenge:
+#         provider: cloudflare
+#         delayBeforeCheck: '0'
+

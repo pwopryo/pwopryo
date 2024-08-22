@@ -1,0 +1,6 @@
+*.code-workspace
+.DS_Store
+.env
+.rsa_private.pem
+.vscode
+/traefik/certs/*
