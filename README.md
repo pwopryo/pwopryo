@@ -63,7 +63,3 @@ To get started with Pwopryo, follow these steps:
    - **Backend API**: [http://localhost:3333](http://localhost:3333)
 
 **Note**: Replace `[backend_container_name]` with the actual container name for the backend. You can find this by running `docker ps` and looking for the container name.
-
----
-
-This README provides an overview of the Pwopryo project, including setup instructions for deploying both frontend and backend services using Docker. Make sure to replace placeholder values and adjust any specific configurations according to your environment.
