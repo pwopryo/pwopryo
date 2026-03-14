@@ -1,6 +1,6 @@
 # Pwopryo
 
-Pwopryo is an integrated platform designed to streamline the process of renting and leasing properties in Haiti.
+Pwopryo is an integrated platform designed to streamline the process of renting and leasing properties.
 
 ## The Solution: Pwopryo, your all-in-one property rental and leasing platform
 
